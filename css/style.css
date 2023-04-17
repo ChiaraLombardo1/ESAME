@@ -348,28 +348,35 @@ h3{
    line-height: 0%;
    margin:auto;
 }
-@media only screen and (min-width: 480px) { 
+
 /* For mobile phones: */
-.container {width: 100%;}
-.container1 {width: 100%;}
-.container2 {width: 100%;}
-.container3 {width: 100%;}
-.container4{width: 100%;}
-.container5 {width: 100%;}
-.container10 {width: 100%;}
-
+[class*="container"] {
+  width: 100%;
+  margin: 20px -80px 20px 40px 
 }
+[class*="container1"] {
+    width: 100%;
+    margin: 20px -80px 20px 40px 
+  }
+  [class*="container2"] {
+    width: 100%;
+    margin: 20px -80px 20px 40px 
+  }
+  [class*="container3"] {
+    width: 100%;
+    margin: 20px -80px 20px 40px 
+  }
+  [class*="container4"] {
+    width: 100%;
+    margin: 20px -80px 20px 40px 
+  }
+  [class*="container5"] {
+    width: 100%;
+    margin: 20px -80px 20px 40px 
+  }
 
- 
-
-@media only screen and (min-width: 992px) {
-  /* For desktop: */
-  .container{width: 8.33%;}
-  .container1 {width: 16.66%;}
-  .container2 {width: 25%;}
-  .container3 {width: 33.33%;}
-  .container4 {width: 41.66%;}
-  .container5{width: 50%;}
-  .container10 {width: 58.33%;}
-
+[class*="container10"] {
+  width: 100%;
+  margin: 20px -80px 20px 40px 
 }
+  
